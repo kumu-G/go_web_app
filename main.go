@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"flag"
 	"fmt"
 	"log"
 	"net/http"
@@ -21,12 +22,22 @@ import (
 // Go Web 开发通用的脚手架模版
 
 func main() {
-	if len(os.Args) < 2 {
+	filename := flag.String("filename", "config.yaml", "config file")
+	// 解析命令行参数
+	flag.Parse()
+	fmt.Println(*filename)
+	//返回命令行参数后的其他参数
+	fmt.Println(flag.Args())
+	//返回命令行参数后的其他参数个数
+	fmt.Println("NArg", flag.NArg())
+	//返回使用的命令行参数个数
+	fmt.Println("NFlag", flag.NFlag())
+	if flag.NArg() != 1 || flag.NArg() != 1 {
 		fmt.Println("please need config file.eg: web_app2 config.yaml")
 		return
 	}
 	//	1. 加载配置
-	if err := settings.Init(os.Args[1]); err != nil {
+	if err := settings.Init(*filename); err != nil {
 		fmt.Printf("init settings failed, error: %v\n", err)
 		return
 	}

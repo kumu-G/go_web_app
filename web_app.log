@@ -58,3 +58,33 @@
 {"level":"DEBUG","time":"2023-06-21T16:31:50.198+0800","caller":"web_app2/main.go:39","msg":"logger initialized successfully"}
 {"level":"INFO","time":"2023-06-21T16:32:47.757+0800","caller":"web_app2/main.go:94","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-06-21T16:32:47.759+0800","caller":"web_app2/main.go:110","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:11:16.871+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:12:18.602+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:12:18.604+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:12:30.622+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:14:55.669+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:14:55.670+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:15:02.348+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:17:30.497+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:17:30.497+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:17:51.222+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:18:20.251+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:18:20.252+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:24:09.763+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:24:26.987+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:24:26.988+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:24:44.026+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:24:53.158+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:24:53.160+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:25:19.852+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:25:23.565+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:25:23.566+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:25:41.048+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T17:25:43.679+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T17:25:43.679+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T17:25:58.635+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T18:44:07.825+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T18:44:07.831+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T18:44:50.729+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T18:44:52.540+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T18:44:52.541+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
