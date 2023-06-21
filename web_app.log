@@ -52,3 +52,9 @@
 {"level":"INFO","time":"2023-06-20T09:34:06.587+0800","caller":"logger/logger.go:109","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","errors":"","cost":0.000025291}
 {"level":"INFO","time":"2023-06-20T09:42:51.678+0800","caller":"web_app2/main.go:90","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-06-20T09:42:51.681+0800","caller":"web_app2/main.go:106","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T13:58:16.755+0800","caller":"web_app2/main.go:35","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T13:58:23.589+0800","caller":"web_app2/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T13:58:23.589+0800","caller":"web_app2/main.go:106","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-21T16:31:50.198+0800","caller":"web_app2/main.go:39","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-21T16:32:47.757+0800","caller":"web_app2/main.go:94","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-21T16:32:47.759+0800","caller":"web_app2/main.go:110","msg":"Server exiting"}

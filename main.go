@@ -21,8 +21,12 @@ import (
 // Go Web 开发通用的脚手架模版
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Println("please need config file.eg: web_app2 config.yaml")
+		return
+	}
 	//	1. 加载配置
-	if err := settings.Init(); err != nil {
+	if err := settings.Init(os.Args[1]); err != nil {
 		fmt.Printf("init settings failed, error: %v\n", err)
 		return
 	}
