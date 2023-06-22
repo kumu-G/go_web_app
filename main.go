@@ -13,7 +13,7 @@ import (
 	"web_app2/dao/mysql"
 	"web_app2/dao/redis"
 	"web_app2/logger"
-	"web_app2/routes"
+	"web_app2/routers"
 	"web_app2/settings"
 
 	"go.uber.org/zap"
@@ -61,7 +61,7 @@ func main() {
 	}
 	defer redis.Close()
 	//	5. 注册路由
-	router := routes.Setup()
+	router := routers.Setup()
 	//	6. 启动服务（优雅关机）
 	// 服务器定义运行HTTP服务器的参数。Server的零值是一个有效的配置。
 	srv := &http.Server{
