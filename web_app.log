@@ -94,3 +94,10 @@
 {"level":"DEBUG","time":"2023-06-22T11:51:10.275+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
 {"level":"INFO","time":"2023-06-22T11:51:14.024+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-06-22T11:51:14.025+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-06-22T11:55:18.715+0800","caller":"web_app2/main.go:50","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-22T11:55:35.954+0800","caller":"logger/logger.go:109","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","errors":"","cost":0.000000708}
+{"level":"INFO","time":"2023-06-22T11:55:36.080+0800","caller":"logger/logger.go:109","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","errors":"","cost":0.00000075}
+{"level":"INFO","time":"2023-06-22T11:55:36.509+0800","caller":"logger/logger.go:109","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","errors":"","cost":0.0000005}
+{"level":"INFO","time":"2023-06-22T11:55:40.564+0800","caller":"logger/logger.go:109","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","errors":"","cost":0.000018917}
+{"level":"INFO","time":"2023-06-22T11:55:46.182+0800","caller":"web_app2/main.go:105","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-22T11:55:46.182+0800","caller":"web_app2/main.go:121","msg":"Server exiting"}
